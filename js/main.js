@@ -5,15 +5,12 @@ const todoButton = document.querySelector('.todoButton');
 const todoList = document.querySelector('.todoList');
 const filterOption = document.querySelector('.filterTodo')
 
-
-
 //////////////////////////events listenters
 
 document.addEventListener('DOMContentLoaded', getTodos);
 todoButton.addEventListener('click', addToDo);
 todoList.addEventListener('click', deleteCheck);
 filterOption.addEventListener('change', filterTodo);
-
 
 
 //////////////////////////functions
